@@ -5,7 +5,7 @@
     <link>https://cameronfen.github.io/publication-type/3/</link>
       <atom:link href="https://cameronfen.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2021 ©</copyright><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2021 ©</copyright><lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
@@ -13,33 +13,11 @@
     </image>
     
     <item>
-      <title>GDP Forecasting using Recurrent Neural Networks</title>
+      <title>Improving External Validity of Machine Learning, Reduced Form, and Structural Macroeconomic Models using Panel Data</title>
       <link>https://cameronfen.github.io/publication/rnn/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://cameronfen.github.io/publication/rnn/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GDP Forecasting using Recurrent Neural Networks</title>
-      <link>https://cameronfen.github.io/project/preprint/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://cameronfen.github.io/project/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
