@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhengyuan Cui | Cameron Fen</title>
+    <link>https://cameronfen.github.io/author/zhengyuan-cui/</link>
+      <atom:link href="https://cameronfen.github.io/author/zhengyuan-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhengyuan Cui</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2021 ©</copyright><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Zhengyuan Cui</title>
+      <link>https://cameronfen.github.io/author/zhengyuan-cui/</link>
+    </image>
+    
+    <item>
+      <title>Imputing Data with Transformers</title>
+      <link>https://cameronfen.github.io/publication/imputation/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://cameronfen.github.io/publication/imputation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
