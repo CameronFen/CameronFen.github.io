@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://cameronfen.github.io/sitemap.xml
