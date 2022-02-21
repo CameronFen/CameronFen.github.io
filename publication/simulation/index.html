@@ -26,7 +26,7 @@
   
     
   
-  <meta name="description" content="This paper introduces a simulation-based deep learning approach to Bayesian inference to the economic literature.  This technique allows for the estimation of a posterior even when the likelihood is intractable and works even with data that has a latent time structure which is ubiquitous in macroeconomic structural modeling. This approach allows value function iteration and other methods that don&#39;t return a likelihood function to be estimated in a Bayesian fashion for likely the first time.">
+  <meta name="description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/publication/simulation/">
@@ -269,14 +269,14 @@
   
   <meta property="og:site_name" content="Cameron Fen">
   <meta property="og:url" content="https://cameronfen.github.io/publication/simulation/">
-  <meta property="og:title" content="Simulation-based Bayesian Estimation of Dynamic Models | Cameron Fen">
-  <meta property="og:description" content="This paper introduces a simulation-based deep learning approach to Bayesian inference to the economic literature.  This technique allows for the estimation of a posterior even when the likelihood is intractable and works even with data that has a latent time structure which is ubiquitous in macroeconomic structural modeling. This approach allows value function iteration and other methods that don&#39;t return a likelihood function to be estimated in a Bayesian fashion for likely the first time."><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Fast Simulation-based Bayesian Estimation of Dynamic Models | Cameron Fen">
+  <meta property="og:description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings."><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2021-08-05T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-08-05T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-02-15T00:00:00&#43;00:00">
   
 
   
@@ -300,10 +300,10 @@
     "@type": "WebPage",
     "@id": "https://cameronfen.github.io/publication/simulation/"
   },
-  "headline": "Simulation-based Bayesian Estimation of Dynamic Models",
+  "headline": "Fast Simulation-based Bayesian Estimation of Dynamic Models",
   
   "datePublished": "2021-08-05T00:00:00Z",
-  "dateModified": "2021-08-05T00:00:00Z",
+  "dateModified": "2021-02-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -318,7 +318,7 @@
       "url": "https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "This paper introduces a simulation-based deep learning approach to Bayesian inference to the economic literature.  This technique allows for the estimation of a posterior even when the likelihood is intractable and works even with data that has a latent time structure which is ubiquitous in macroeconomic structural modeling. This approach allows value function iteration and other methods that don't return a likelihood function to be estimated in a Bayesian fashion for likely the first time."
+  "description": "I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings."
 }
 </script>
 
@@ -336,7 +336,7 @@
 
 
 
-  <title>Simulation-based Bayesian Estimation of Dynamic Models | Cameron Fen</title>
+  <title>Fast Simulation-based Bayesian Estimation of Dynamic Models | Cameron Fen</title>
 
 </head>
 
@@ -669,7 +669,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Simulation-based Bayesian Estimation of Dynamic Models</h1>
+  <h1>Fast Simulation-based Bayesian Estimation of Dynamic Models</h1>
 
   
 
@@ -698,7 +698,7 @@
     
       
     
-    August 2021
+    February 2021
   </span>
   
 
@@ -729,6 +729,53 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/sbi_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/sbi_pres.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -739,9 +786,28 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This paper introduces a simulation-based deep learning approach to Bayesian inference to the economic literature.  This technique allows for the estimation of a posterior even when the likelihood is intractable and works even with data that has a latent time structure which is ubiquitous in macroeconomic structural modeling. This approach allows value function iteration and other methods that don&rsquo;t return a likelihood function to be estimated in a Bayesian fashion for likely the first time.  I demonstrate the approach on two toy models using value function iteration model and also a 10 parameter HANK model solved via Reiter and time iteration.</p>
+    <p class="pub-abstract">This paper proposes a simulation-based deep learning Bayesian estimation procedure for the estimation of macroeconomic models that is able to derive posteriors and likelihoods even when the likelihood function is not tractable in a manner much faster than Metropolis Hastings. I demonstrate this procedure Bayesian estimating models solved with projection, perturbation, and value function iteration. This improvement works even with data that has a latent state space time structure, where unobserved variables affect sequential time steps. This allows for a general approach to Bayesian and MLE estimation of models solved via value function iteration and projection method. I demonstrate the validity of the approach by estimating a 10 parameter HANK model solved via the Reiter method that generates 861 covariates per time step, showing that this approach can handle high dimensional simulated data. Estimated on this HANK model, this approach is also 9x faster with better posteriors than Metropolis-Hastings. I also estimate the algorithm with an 11-parameter model solved via value function iteration, which cannot be estimated with Metropolis Hastings or even most conventional maximum likelihood estimators. This both addresses the computational expense of Metropolis-Hastings and allows projection and value function iteration techniques to be estimated in a Bayesian and MLE manner.</p>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     
@@ -782,7 +848,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://cameronfen.github.io/publication/simulation/&amp;text=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://cameronfen.github.io/publication/simulation/&amp;text=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -795,7 +861,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://cameronfen.github.io/publication/simulation/&amp;t=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://cameronfen.github.io/publication/simulation/&amp;t=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -808,7 +874,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models&amp;body=https://cameronfen.github.io/publication/simulation/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models&amp;body=https://cameronfen.github.io/publication/simulation/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -821,7 +887,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://cameronfen.github.io/publication/simulation/&amp;title=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://cameronfen.github.io/publication/simulation/&amp;title=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -834,7 +900,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models%20https://cameronfen.github.io/publication/simulation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models%20https://cameronfen.github.io/publication/simulation/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -847,7 +913,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://cameronfen.github.io/publication/simulation/&amp;title=Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://cameronfen.github.io/publication/simulation/&amp;title=Fast%20Simulation-based%20Bayesian%20Estimation%20of%20Dynamic%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
