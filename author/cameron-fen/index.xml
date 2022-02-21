@@ -5,7 +5,7 @@
     <link>https://cameronfen.github.io/author/cameron-fen/</link>
       <atom:link href="https://cameronfen.github.io/author/cameron-fen/index.xml" rel="self" type="application/rss+xml" />
     <description>Cameron Fen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2022 ©</copyright><lastBuildDate>Thu, 05 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2022 ©</copyright><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Cameron Fen</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Simulation-based Bayesian Estimation of Dynamic Models</title>
+      <title>Fast Simulation-based Bayesian Estimation of Dynamic Models</title>
       <link>https://cameronfen.github.io/publication/simulation/</link>
-      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://cameronfen.github.io/publication/simulation/</guid>
       <description></description>
     </item>
