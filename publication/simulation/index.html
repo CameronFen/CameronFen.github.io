@@ -26,7 +26,7 @@
   
     
   
-  <meta name="description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings.">
+  <meta name="description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is scales better than conventional Metropolis-Hastings.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/publication/simulation/">
@@ -270,7 +270,7 @@
   <meta property="og:site_name" content="Cameron Fen">
   <meta property="og:url" content="https://cameronfen.github.io/publication/simulation/">
   <meta property="og:title" content="Fast Simulation-based Bayesian Estimation of Dynamic Models | Cameron Fen">
-  <meta property="og:description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings."><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is scales better than conventional Metropolis-Hastings."><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -318,7 +318,7 @@
       "url": "https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is over 10x faster than conventional Metropolis-Hastings."
+  "description": "I show that one can perform Bayesian and MLE estimation of dynamic models without the use of a likelihood function. This allows solution methods like projection and value function iteration to be estimated in this manner. The simulation-based technique is scales better than conventional Metropolis-Hastings."
 }
 </script>
 
@@ -760,14 +760,6 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/sbi_pres.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
 
 
 
@@ -786,7 +778,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This paper proposes a simulation-based deep learning Bayesian estimation procedure for the estimation of macroeconomic models that is able to derive posteriors and likelihoods even when the likelihood function is not tractable in a manner much faster than Metropolis Hastings. I demonstrate this procedure Bayesian estimating models solved with projection, perturbation, and value function iteration. This improvement works even with data that has a latent state space time structure, where unobserved variables affect sequential time steps. This allows for a general approach to Bayesian and MLE estimation of models solved via value function iteration and projection method. I demonstrate the validity of the approach by estimating a 10 parameter HANK model solved via the Reiter method that generates 861 covariates per time step, showing that this approach can handle high dimensional simulated data. Estimated on this HANK model, this approach is also 9x faster with better posteriors than Metropolis-Hastings. I also estimate the algorithm with an 11-parameter model solved via value function iteration, which cannot be estimated with Metropolis Hastings or even most conventional maximum likelihood estimators. This both addresses the computational expense of Metropolis-Hastings and allows projection and value function iteration techniques to be estimated in a Bayesian and MLE manner.</p>
+    <p class="pub-abstract">This paper proposes a simulation-based deep learning Bayesian estimation procedure for the estimation of macroeconomic models that is able to derive posteriors and likelihoods even when the likelihood function is not tractable in a manner that scales much better than Metropolis Hastings. I demonstrate this procedure Bayesian estimating models solved with projection, perturbation, and value function iteration. This improvement works even with data that has a latent state space time structure, where unobserved variables affect sequential time steps. This allows for a general approach to Bayesian and MLE estimation of models solved via value function iteration and projection method. I demonstrate the validity of the approach by estimating a 10 parameter HANK model solved via the Reiter method that generates 861 covariates per time step, showing that this approach can handle high dimensional simulated data. Estimated on this HANK model, this approach also scales better than Metropolis-Hastings. I also estimate the algorithm with an 11-parameter model solved via value function iteration, which cannot be estimated with Metropolis Hastings or even most conventional maximum likelihood estimators. This both addresses the computational expense of Metropolis-Hastings and allows projection and value function iteration techniques to be estimated in a Bayesian and MLE manner.</p>
     
 
     
