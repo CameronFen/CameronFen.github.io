@@ -5,7 +5,7 @@
     <link>https://cameronfen.github.io/publication/</link>
       <atom:link href="https://cameronfen.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2022 ©</copyright><lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2022 ©</copyright><lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Improving External Validity of Machine Learning, Reduced Form, and Structural Macroeconomic Models using Panel Data</title>
-      <link>https://cameronfen.github.io/publication/rnn/</link>
-      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://cameronfen.github.io/publication/rnn/</guid>
+      <title>Fast Simulation-based Bayesian Estimation of Dynamic Models</title>
+      <link>https://cameronfen.github.io/publication/simulation/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://cameronfen.github.io/publication/simulation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fast Simulation-based Bayesian Estimation of Dynamic Models</title>
-      <link>https://cameronfen.github.io/publication/simulation/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://cameronfen.github.io/publication/simulation/</guid>
+      <title>Improving External Validity of Machine Learning, Reduced Form, and Structural Macroeconomic Models using Panel Data</title>
+      <link>https://cameronfen.github.io/publication/rnn/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://cameronfen.github.io/publication/rnn/</guid>
       <description></description>
     </item>
     
