@@ -26,10 +26,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/tag/bayesian-econometrics/">
+  <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/project/vi/">
 
   
 
@@ -244,14 +244,12 @@
   
 
   
-  <link rel="alternate" href="/tag/bayesian-econometrics/index.xml" type="application/rss+xml" title="Cameron Fen">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://cameronfen.github.io/tag/bayesian-econometrics/">
+  <link rel="canonical" href="https://cameronfen.github.io/project/vi/">
 
   
   
@@ -270,18 +268,61 @@
   <meta property="twitter:creator" content="@FenCameron">
   
   <meta property="og:site_name" content="Cameron Fen">
-  <meta property="og:url" content="https://cameronfen.github.io/tag/bayesian-econometrics/">
-  <meta property="og:title" content="Bayesian Econometrics | Cameron Fen">
-  <meta property="og:description" content=""><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://cameronfen.github.io/project/vi/">
+  <meta property="og:title" content="Variational Inference for Fast Bayesian DSGE Estimation | Cameron Fen">
+  <meta property="og:description" content="This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo."><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-02-15T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2020-09-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-11-09T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cameronfen.github.io/project/vi/"
+  },
+  "headline": "Variational Inference for Fast Bayesian DSGE Estimation",
+  
+  "datePublished": "2020-09-11T00:00:00Z",
+  "dateModified": "2020-11-09T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Cameron Fen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cameron Fen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo."
+}
+</script>
+
+  
 
   
 
@@ -289,10 +330,13 @@
   
 
 
+  
 
 
 
-  <title>Bayesian Econometrics | Cameron Fen</title>
+
+
+  <title>Variational Inference for Fast Bayesian DSGE Estimation | Cameron Fen</title>
 
 </head>
 
@@ -639,93 +683,275 @@
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article article-project">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Variational Inference for Fast Bayesian DSGE Estimation</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Bayesian Econometrics</h1>
+
+
+<div class="article-metadata">
 
   
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Cameron Fen</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 9, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-    
-    
-    
-    <div>
-      <h2><a href="/publication/simulation/" >Fast Simulation-based Bayesian Estimation of Heterogenous and Representative Agent Models</a></h2>
-      <div class="article-style">
-        
-          This paper proposes a simulation-based maximum likelihood or Bayesian algorithm for the estimation of macroeconomic models. This approach is able to derive posteriors or the maximum likelihood estimate even when the likelihood function is not tractable. Because the likelihood is not needed for Bayesian estimation, filtering is also not needed. The approach shares similarity to Kristensen and Shin (2012), but it replaces the kernel density estimator with the option of a few different machine learning density estimators that can deal with high dimensions while being numerically stable. I demonstrate the validity of the approach by estimating a 10 parameter HANK model solved via Reiter’s method that generates 812 covariates per time step, where 810 are latent variables, showing this can handle a large latent space without state space reduction. I also estimate the algorithm with an 11-parameter model solved via value function iteration, which cannot be estimated with Metropolis-Hastings or even conventional maximum likelihood estimators without measurement errors. In addition, I show the posteriors estimated on Smets-Wouters 2007 are higher quality and faster using simulation-based inference compared to Metropolis-Hastings. This approach helps address the computational expense of Metropolis-Hastings and allows solution methods which don’t yield a tractable likelihood to be better estimated.
-        
-      </div>
+    <div class="article-style">
+      
     </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/worksinprogress/imputation/" >Imputing Data with Transformers</a></h2>
-      <div class="article-style">
-        
-          This paper uses a transformer neural network model to perform imputation of missing data.  The method returns a distribution which allows for easy marginalization which can allow for statistically efficient analysis when combined with a model for inference.
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/worksinprogress/external-project-2/" >Variational Inference and Fast Bayesian DSGE Estimation</a></h2>
-      <div class="article-style">
-        
-          This paper demonstrates how to use Variational Inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100.
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/project/vi/" >Variational Inference for Fast Bayesian DSGE Estimation</a></h2>
-      <div class="article-style">
-        
-          This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo.
-        
-      </div>
-    </div>
-  
 
-  
+    
 
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/bayesian-econometrics/">Bayesian Econometrics</a>
+  
+  <a class="badge badge-light" href="/tag/dsge-estimation/">DSGE Estimation</a>
+  
+  <a class="badge badge-light" href="/tag/variational-inference/">Variational Inference</a>
+  
 </div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://cameronfen.github.io/project/vi/&amp;text=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://cameronfen.github.io/project/vi/&amp;t=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation&amp;body=https://cameronfen.github.io/project/vi/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://cameronfen.github.io/project/vi/&amp;title=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation%20https://cameronfen.github.io/project/vi/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://cameronfen.github.io/project/vi/&amp;title=Variational%20Inference%20for%20Fast%20Bayesian%20DSGE%20Estimation" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/worksinprogress/imputation/">Imputing Data with Transformers</a></li>
+      
+      <li><a href="/worksinprogress/external-project-2/">Variational Inference and Fast Bayesian DSGE Estimation</a></li>
+      
+      <li><a href="/publication/simulation/">Fast Simulation-based Bayesian Estimation of Heterogenous and Representative Agent Models</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
 
       
 

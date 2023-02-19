@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cameronfen.github.io/publication-type/3/</loc>
+    <loc>https://cameronfen.github.io/publication-type/2/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -55,6 +55,11 @@
   <url>
     <loc>https://cameronfen.github.io/tags/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cameronfen.github.io/publication-type/3/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -118,32 +123,17 @@
   </url>
   
   <url>
-    <loc>https://cameronfen.github.io/tag/econometrics/</loc>
+    <loc>https://cameronfen.github.io/worksinprogress/imputation/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cameronfen.github.io/tag/empirical-maximum-likelihood/</loc>
+    <loc>https://cameronfen.github.io/project/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cameronfen.github.io/publication/imputation/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cameronfen.github.io/worksinprogress/external-project/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cameronfen.github.io/worksinprogress/simulation/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cameronfen.github.io/tag/structural-estimation/</loc>
+    <loc>https://cameronfen.github.io/worksinprogress/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -158,12 +148,7 @@
   </url>
   
   <url>
-    <loc>https://cameronfen.github.io/publication/vi/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cameronfen.github.io/worksinprogress/</loc>
+    <loc>https://cameronfen.github.io/project/vi/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   

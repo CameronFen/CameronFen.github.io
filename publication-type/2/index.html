@@ -29,7 +29,7 @@
   <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/tag/bayesian-econometrics/">
+  <link rel="alternate" hreflang="en-us" href="https://cameronfen.github.io/publication-type/2/">
 
   
 
@@ -244,14 +244,14 @@
   
 
   
-  <link rel="alternate" href="/tag/bayesian-econometrics/index.xml" type="application/rss+xml" title="Cameron Fen">
+  <link rel="alternate" href="/publication-type/2/index.xml" type="application/rss+xml" title="Cameron Fen">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://cameronfen.github.io/tag/bayesian-econometrics/">
+  <link rel="canonical" href="https://cameronfen.github.io/publication-type/2/">
 
   
   
@@ -270,12 +270,12 @@
   <meta property="twitter:creator" content="@FenCameron">
   
   <meta property="og:site_name" content="Cameron Fen">
-  <meta property="og:url" content="https://cameronfen.github.io/tag/bayesian-econometrics/">
-  <meta property="og:title" content="Bayesian Econometrics | Cameron Fen">
+  <meta property="og:url" content="https://cameronfen.github.io/publication-type/2/">
+  <meta property="og:title" content="2 | Cameron Fen">
   <meta property="og:description" content=""><meta property="og:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-02-15T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2022-11-12T00:00:00&#43;00:00">
   
 
   
@@ -292,7 +292,7 @@
 
 
 
-  <title>Bayesian Econometrics | Cameron Fen</title>
+  <title>2 | Cameron Fen</title>
 
 </head>
 
@@ -660,7 +660,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>Bayesian Econometrics</h1>
+  <h1>2</h1>
 
   
 
@@ -678,10 +678,10 @@
     
     
     <div>
-      <h2><a href="/publication/simulation/" >Fast Simulation-based Bayesian Estimation of Heterogenous and Representative Agent Models</a></h2>
+      <h2><a href="/publication/sbi_graphs/" >Simulation-Based Estimation of General Structural Network Models</a></h2>
       <div class="article-style">
         
-          This paper proposes a simulation-based maximum likelihood or Bayesian algorithm for the estimation of macroeconomic models. This approach is able to derive posteriors or the maximum likelihood estimate even when the likelihood function is not tractable. Because the likelihood is not needed for Bayesian estimation, filtering is also not needed. The approach shares similarity to Kristensen and Shin (2012), but it replaces the kernel density estimator with the option of a few different machine learning density estimators that can deal with high dimensions while being numerically stable. I demonstrate the validity of the approach by estimating a 10 parameter HANK model solved via Reiter’s method that generates 812 covariates per time step, where 810 are latent variables, showing this can handle a large latent space without state space reduction. I also estimate the algorithm with an 11-parameter model solved via value function iteration, which cannot be estimated with Metropolis-Hastings or even conventional maximum likelihood estimators without measurement errors. In addition, I show the posteriors estimated on Smets-Wouters 2007 are higher quality and faster using simulation-based inference compared to Metropolis-Hastings. This approach helps address the computational expense of Metropolis-Hastings and allows solution methods which don’t yield a tractable likelihood to be better estimated.
+          This paper addresses the issue of estimating structural models with data from a single graph, which is a longstanding problem in economics and related fields. While there exist methods for estimating structural models on independent and identically distributed graphs, there is limited research on a general-purpose algorithm to fit a structural model on a single network. This study proposes an algorithm adapted from deep learning for network analysis, which enables Bayesian and likelihood estimation of arbitrary structural models, provided that the graph data is within the range of the networks simulated by the structural model. Simulated data tests demonstrate the effectiveness and accuracy of this approach. Additionally, the algorithm is applied to estimate a homophily citation model (Bramoull´e et al., 2012), making it the first method, as far as the author is aware, capable of structurally estimating this model. Overall, this study presents a promising algorithm for fitting structural models on a single network, opening up avenues for future research in the field.
         
       </div>
     </div>
@@ -690,34 +690,10 @@
     
     
     <div>
-      <h2><a href="/worksinprogress/imputation/" >Imputing Data with Transformers</a></h2>
+      <h2><a href="/publication/rnn/" >Improving External Validity of Machine Learning, Reduced Form, and Structural Macroeconomic Models using Panel Data</a></h2>
       <div class="article-style">
         
-          This paper uses a transformer neural network model to perform imputation of missing data.  The method returns a distribution which allows for easy marginalization which can allow for statistically efficient analysis when combined with a model for inference.
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/worksinprogress/external-project-2/" >Variational Inference and Fast Bayesian DSGE Estimation</a></h2>
-      <div class="article-style">
-        
-          This paper demonstrates how to use Variational Inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100.
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/project/vi/" >Variational Inference for Fast Bayesian DSGE Estimation</a></h2>
-      <div class="article-style">
-        
-          This paper demonstrates how to use variational inference as well as a flexible variational family that allows fast estimation of DSGE models, which roughly reduces computation time by a factor of 100 compared to Markov chain Monte Carlo.
+          We show that adding countries as a panel dimension to macroeconomic data can statistically significantly improve external validity of structural and reduced form models, as well as allow machine learning methods to outperform these and other macroeconomic forecasting models.
         
       </div>
     </div>
