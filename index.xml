@@ -5,7 +5,7 @@
     <link>https://cameronfen.github.io/</link>
       <atom:link href="https://cameronfen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Cameron Fen</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2023 ©</copyright><lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Cameron Fen 2023 ©</copyright><lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cameronfen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Cameron Fen</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Simulation-Based Estimation of General Structural Network Models</title>
-      <link>https://cameronfen.github.io/publication/sbi_graphs/</link>
-      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://cameronfen.github.io/publication/sbi_graphs/</guid>
+      <title>Fast Simulation-based Bayesian Estimation of Heterogenous and Representative Agent Models</title>
+      <link>https://cameronfen.github.io/publication/simulation/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://cameronfen.github.io/publication/simulation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fast Simulation-based Bayesian Estimation of Heterogenous and Representative Agent Models</title>
-      <link>https://cameronfen.github.io/publication/simulation/</link>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://cameronfen.github.io/publication/simulation/</guid>
+      <title>Simulation-Based Estimation of General Structural Network Models</title>
+      <link>https://cameronfen.github.io/publication/sbi_graphs/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://cameronfen.github.io/publication/sbi_graphs/</guid>
       <description></description>
     </item>
     
