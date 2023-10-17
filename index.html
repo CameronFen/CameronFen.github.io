@@ -834,11 +834,9 @@ Academic Interests:
 <hr>
 <p>A couple of interests outside of economic research:</p>
 <div>
-1.) I use deep learning for quantitative trading at a <a href="https://www.aicm.world">fund</a> my friends and I founded.  
+1.) I like playing the video games Age of Empires II and Civilization VI. I don't have that much time, but if you okay at either of those games reach out.    
 </div><div>
-2.) I like playing the video games Age of Empires II and Civilization VI.  
-</div><div>
-3.) Additionally, if you are a non-profit in need of data work, feel free to contact me. 
+2.) If you are a non-profit in need of data work, feel free to contact me. 
 </div>
 
     <div class="row">
@@ -980,13 +978,14 @@ Academic Interests:
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/simulation/" >A Machine Learning Approach to Efficient Simulation-Based Bayesian Estimation of Heterogeneous and Representative Agent Models</a>
+      <a href="/publication/simulation/" >A Machine Learning Approach to Simulation-Based Bayesian Estimation of Heterogeneous and Representative Agent Models</a>
     </h3>
 
     
     <a href="/publication/simulation/" class="summary-link">
       <div class="article-style">
-        This paper introduces a machine learning algorithm called Sequential Neural Posterior Estimation (SNPE) for estimating structural heterogeneous agent macroeconomic models. SNPE is a simulation-based algorithm that aims to approximate the joint distribution of parameters and simulated data. It then uses a conditional density estimator to obtain the posterior distribution. The algorithm offers several advantages, including the ability to handle any black box solution method, improved speed and accuracy compared to existing Bayesian algorithms, and statistically efficient simulation-based estimates. The algorithm outperforms Markov Chain Monte Carlo in estimating Bayesian posteriors for benchmark models such as Smets-Wouters (2007) and improves estimation speed for Heterogeneous Agent New Keynesian (HANK) models. An empirical application demonstrates the effectiveness of this technique in estimating a heterogeneous agent model using both aggregate time series and cross-sectional micro-data. A tutorial can be found at: 
+        This paper introduces a machine learning algorithm called Sequential Neural Posterior Estimation (SNPE) for estimating structural heterogeneous agent macroeconomic models. SNPE is a simulation-based algorithm that aims to approximate the joint distribution of parameters and simulated data. It then uses a conditional density estimator to obtain the posterior distribution. The algorithm offers several advantages, including the ability to handle any black box solution method, improved speed and accuracy compared to existing Bayesian algorithms, and statistically efficient simulation-based estimates. The algorithm outperforms Markov Chain Monte Carlo in estimating Bayesian posteriors for benchmark models such as Smets-Wouters (2007) and improves estimation speed for Heterogeneous Agent New Keynesian (HANK) models. An empirical application demonstrates the effectiveness of this technique in estimating a heterogeneous agent model using both aggregate time series and cross-sectional micro-data.
+A tutorial can be found at: 
 <a href="https://shorturl.at/pMQ18" target="_blank" rel="noopener">https://shorturl.at/pMQ18</a>
       </div>
     </a>
@@ -1241,7 +1240,7 @@ Academic Interests:
   
   <a href="/publication/sbi_graphs/" class="summary-link">
     <div class="article-style">
-      <p>This paper addresses the issue of estimating structural models with data from a single graph, which is a longstanding problem in economics and related fields. While there exist methods for estimating structural models on independent and identically distributed graphs, there is limited research on a general-purpose algorithm to fit a structural model on a single network. This study proposes an algorithm adapted from deep learning for network analysis, which enables Bayesian and likelihood estimation of arbitrary structural models, provided that the graph data is within the range of the networks simulated by the structural model. Simulated data tests demonstrate the effectiveness and accuracy of this approach. Additionally, the algorithm is applied to estimate a homophily citation model (Bramoull´e et al., 2012), making it the first method, as far as the author is aware, capable of structurally estimating this model. Overall, this study presents a promising algorithm for fitting structural models on a single network, opening up avenues for future research in the field.</p>
+      <p>This paper addresses the issue of estimating structural models on data from a single network. For example, in Macroeconomics, one could use the production network of the US.  This is a longstanding problem in economics and related fields. While there exist methods for estimating structural models on many graphs/networks, there is limited research on a general-purpose algorithm to fit structural models on a single network. This study proposes an algorithm adapted from Deep Learning, dubbed Sequential Neural Posterior Estimation (SNPE), for network analysis, which enables Bayesian and likelihood estimation of arbitrary structural models, given standard conditions. SNPE is a simulation-based estimator, which can produce likelihoods via samples from a distribution. Networks sampled from a model are converted to numerical statistics, which hopefully are sufficient, via graph neural networks and other methods.  Simulated tests demonstrate the effectiveness and accuracy of this approach. To demonstrate the capability of this model, the algorithm is applied to estimate a homophily citation model (Bramoulle et. al. 2012) on empirical data, which was not attempted by the original paper. This study presents a promising algorithm for fitting structural models on a single network, opening avenues for future research in network estimation.</p>
     </div>
   </a>
   
@@ -1368,7 +1367,7 @@ Academic Interests:
   
   <a href="/publication/rnn/" class="summary-link">
     <div class="article-style">
-      <p>We show that adding countries as a panel dimension to macroeconomic data can statistically significantly improve external validity of structural and reduced form models, as well as allow machine learning methods to outperform these and other macroeconomic forecasting models.</p>
+      <p>We investigate the impact of adding countries as a panel dimension to Macroeconomic data for economic forecasting. We find that this approach significantly improves the generalization ability of both structural and reduced-form models, and works synergistically with Machine Learning methods to further outperform traditional macroeconomic forecasting models. The addition of country-specific data reduces the root mean squared error (RMSE) by 12-24% across horizons and models. Furthermore, excluding US data and forecasting each country individually enhances the policy invariance and performance of both structural and reduced-form models. Additionally, the study demonstrates that the use of Recurrent Neural Network (RNN) models and Automated Machine Learning (AutoML) outperform baseline economic models in a data-rich regime. The findings are robust, reproducible, numerically stable, and applicable across various models.</p>
     </div>
   </a>
   
