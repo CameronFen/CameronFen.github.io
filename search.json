@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "papers.html",
+    "href": "papers.html",
+    "title": "Research Papers",
+    "section": "",
+    "text": "This paper introduces a machine learning algorithm called Sequential Neural Posterior Estimation (SNPE) for estimating structural heterogeneous agent macroeconomic models. SNPE is a simulation-based algorithm that aims to approximate the joint distribution of parameters and simulated data. It then uses a conditional density estimator to obtain the posterior distribution. The algorithm offers several advantages, including the ability to handle any black box solution method, improved speed and accuracy compared to existing Bayesian algorithms, and statistically efficient simulation-based estimates. The algorithm outperforms Markov Chain Monte Carlo in estimating Bayesian posteriors for benchmark models such as Smets-Wouters (2007) and improves estimation speed for Heterogeneous Agent New Keynesian (HANK) models. An empirical application demonstrates the effectiveness of this technique in estimating a heterogeneous agent model using both aggregate time series and cross-sectional micro-data. A tutorial can be found at: https://shorturl.at/pMQ18\n\n\nPaper Slides"
+  },
+  {
+    "objectID": "papers.html#a-machine-learning-approach-to-simulation-based-mle-and-bayesian-estimation-of-heterogeneous-and-representative-agent-models",
+    "href": "papers.html#a-machine-learning-approach-to-simulation-based-mle-and-bayesian-estimation-of-heterogeneous-and-representative-agent-models",
+    "title": "Research Papers",
+    "section": "",
+    "text": "This paper introduces a machine learning algorithm called Sequential Neural Posterior Estimation (SNPE) for estimating structural heterogeneous agent macroeconomic models. SNPE is a simulation-based algorithm that aims to approximate the joint distribution of parameters and simulated data. It then uses a conditional density estimator to obtain the posterior distribution. The algorithm offers several advantages, including the ability to handle any black box solution method, improved speed and accuracy compared to existing Bayesian algorithms, and statistically efficient simulation-based estimates. The algorithm outperforms Markov Chain Monte Carlo in estimating Bayesian posteriors for benchmark models such as Smets-Wouters (2007) and improves estimation speed for Heterogeneous Agent New Keynesian (HANK) models. An empirical application demonstrates the effectiveness of this technique in estimating a heterogeneous agent model using both aggregate time series and cross-sectional micro-data. A tutorial can be found at: https://shorturl.at/pMQ18\n\n\nPaper Slides"
+  },
+  {
+    "objectID": "papers.html#simulation-based-estimation-of-general-structural-network-models",
+    "href": "papers.html#simulation-based-estimation-of-general-structural-network-models",
+    "title": "Research Papers",
+    "section": "Simulation-Based Estimation of General Structural Network Models",
+    "text": "Simulation-Based Estimation of General Structural Network Models\nThis paper addresses the issue of estimating structural graph/network models on data from a single graph/network. While there exist methods for estimating structural models on many independent and identically distributed (iid) graphs/networks (Banerjee et. al., 2013), there are limited general-purpose algorithms to fit structural models on a given single network. With most graphs/networks, the likelihood function is both intractable, and graphs/networks can’t easily be split into many iid components, so traditional methods like maximum likelihood and method of moments will not work. This study proposes an algorithm adapted from Deep Learning, dubbed Sequential Neural Posterior Estimation (SNPE), for network analysis. SNPE is a simulation-based estimator that can estimate likelihoods without a likelihood function and does not require a cross-section of iid samples. These two facts allow for general-purpose estimation of structural network/graph models. SNPE can recover calibrated parameter values that generate a ground truth graph/network from a structural model. Additionally, the algorithm is applied to estimate the homophily model (Bramoulle et. al. 2012) on empirical data which was not attempted in the original paper. This study presents a promising algorithm for fitting structural models on a single network, opening avenues for future research in network estimation.\n\nReferences:\nPaper"
+  },
+  {
+    "objectID": "papers.html#us-gdp-forecasts-without-us-data-why-pooled-cross-country-data-improves-us-gdp-forecasting-and-pooled-data-without-the-us-improves-forecasts-even-more",
+    "href": "papers.html#us-gdp-forecasts-without-us-data-why-pooled-cross-country-data-improves-us-gdp-forecasting-and-pooled-data-without-the-us-improves-forecasts-even-more",
+    "title": "Research Papers",
+    "section": "US GDP Forecasts Without US Data? Why Pooled Cross Country Data Improves US GDP Forecasting and Pooled Data Without The US Improves Forecasts Even More",
+    "text": "US GDP Forecasts Without US Data? Why Pooled Cross Country Data Improves US GDP Forecasting and Pooled Data Without The US Improves Forecasts Even More\nEconomic forecasting is both an essential exercise and a way to discipline the construction of models. We show that pooling data from many countries in a cross-sectional dimension to macroeconomic data can statistically significantly improve the generalization ability of structural, reduced-from, and machine learning models in forecasting GDP. This procedure reduces root mean squared error (RMSE) by 12 percent across horizons for certain reduced form models and by 24 percent across horizons for structural DSGE models. A central result in this paper is that, in contrast with theory, DSGE or reduced from models forecast better, or at least as well, when estimated on more recent time series across a cross-section of countries rather than data that extends further back in time but only from the country of interest. Finally, given the comparative advantage of “nonparametric” Machine Learning forecasting models in a data-rich regime, we demonstrate that our Recurrent Neural Network (RNN) model and Automated Machine Learning (AutoML) approach outperform all baseline Economic models and even the Survey of Professional Forecasters at long term horizons when using pooled macroeconomic data. Robustness checks indicate that machine learning techniques are reproducible, numerically stable, and generalize across models.\n\nReferences:\nPaper Video"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Here is my CV"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cameron Research Website",
+    "section": "",
+    "text": "Welcome to my website. I’m a macroeconomist and my work lies at the intersection of deep learning and macroeconometric modeling. I think a lot about the limitations and improvements to dynamic macro models including how machine learning can help. While I think a lot about how current DSGE and HANK models can be improved, I also am interested in applied research in deep/machine learning as well as other macroeconomic modeling approaches.\nAddtionally, I’m interested in emprical analysis from accross a spectrum of topics. I’ve written a papper indicating that, despite the critiques of navel gazing, a field like philosophy behaves as if it’s making progress over time, where philosophical phenomon is understood more and more over time. I’m also thinking about measuring expertise with artists and their artwork. I also have interest in political science. In short, if you have interest in empirical work of any type, feel free to contact me at cameronfen at gmail dot com.\nHere is my CV\nSee more about my work here\n\nAcademic Work\n- Macroeconomics\n- Deep Learning\n- Time Series Forecasting\n- Bayesian Econometrics and Dynamic Modeling\n- Emprical Appliction of Machine Learning"
+  }
+]
